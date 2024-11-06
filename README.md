@@ -44,25 +44,25 @@ etl_automation/
 
 1. Clona el repositorio:
 
-```bash
-git clone https://github.com/tu_usuario/etl_automation.git
-```
+   ```plaintext
+   git clone https://github.com/tu_usuario/etl_automation.git
+   ```
 
 2. Instala las dependencias:
 
-```bash
-pip install -r requirements.txt
-```
+   ```plaintext
+   pip install -r requirements.txt
+   ```
 
-3.  Configura las credenciales en config/db_config.yaml.
+3. Configura las credenciales en config/db_config.yaml.
 
 ## ⌛ Ejecución
 
-Ejecuta el pipeline de ETL:
+- Ejecuta el pipeline de ETL:
 
-```bash
-python etl_pipeline.py
-```
+  ```bash
+  python etl_pipeline.py
+  ```
 
 ## 🦿 Expansión
 
