@@ -1,48 +1,48 @@
 # ETL Automation
 
-## 📋 Descripción del Proyecto
+## 📋 Project Description
 
-Este proyecto implementa un pipeline de ETL (Extracción, Transformación y Carga) completamente automatizado, diseñado para facilitar la integración de datos desde múltiples fuentes de manera eficiente y precisa. Este pipeline permite preparar y mover datos para su análisis en bases de datos, garantizando flexibilidad y escalabilidad en el manejo de la información.
+This project implements a fully automated ETL (Extraction, Transformation and Loading) pipeline, designed to facilitate the integration of data from multiple sources in an efficient and accurate manner. This pipeline allows data to be prepared and moved for analysis in databases, ensuring flexibility and scalability in information management.
 
-El diseño modular del proyecto permite agregar nuevos casos de extracción y carga según las necesidades, lo que lo hace fácilmente adaptable a diferentes fuentes de datos y bases de datos de destino.
+The modular design of the project allows new extraction and loading cases to be added as needed, making it easily adaptable to different data sources and target databases.
 
-A continuación, se detallan las etapas del proceso ETL:
+The stages of the ETL process are detailed below:
 
-1. **Extraction**: Captura y lee datos desde diversas fuentes, como archivos CSV, APIs y bases de datos externas.
-2. **Transform**: Realiza limpieza, formateo y enriquecimiento de datos, asegurando que estén listos para análisis o almacenamiento.
-3. **Load**: Inserta los datos transformados en una base de datos de destino (por ejemplo, PostgreSQL o MySQL) para facilitar consultas y análisis.
+1. **Extraction**: Capture and read data from a variety of sources, including CSV files, APIs, and external databases.
+2. **Transform**: Performs data cleansing, formatting and enrichment, ensuring it is ready for analysis or storage.
+3. **Load**: Insert the transformed data into a target database (for example, PostgreSQL or MySQL) for easy querying and analysis.
 
-## 🧑‍💻 Estructura del Proyecto de ETL
+## 🧑‍💻 ETL Project Structure
 
 ```plaintext
 etl_automation/
 ├── config/
-│   └── db_config.yaml        # Archivo de configuración para almacenar credenciales y detalles de conexión a las bases de datos (PostgreSQL, MySQL).
+│   └── db_config.yaml        # Configuration file to store credentials and connection details to databases (PostgreSQL, MySQL).
 │
 ├── data/
-│   └── sample_data.csv       # Datos de ejemplo en formato .csv para la prueba de la automatización.
+│   └── sample_data.csv       # Sample data in .csv format for automation testing.
 │
-├── etl_pipeline.py           # Código principal de Python que realiza las funciones de Extracción, Transformación y Carga.
-├── README.md                 # Archivo de documentación que explica el proyecto y su uso.
-└── requirements.txt          # Librerías necesarias para ejecutar el pipeline de ETL.
+├── etl_pipeline.py           # Main Python code that performs the Extraction, Transformation and Loading functions.
+├── README.md                 # Documentation file explaining the project and its use.
+└── requirements.txt          # Libraries required to run the ETL pipeline.
 ```
 
-## 🛠️ Herramientas y Librerías
+## 🛠️ Tools and Libraries
 
-- **Python**: Para scripting.
-- **SQLAlchemy**: Conexiones a bases de datos.
-- **Pandas**: Manipulación de datos.
-- **PyYAML**: Lectura de configuraciones.
+- **Python**: For scripting.
+- **SQLAlchemy**: Database connections.
+- **Pandas**: Data manipulation.
+- **PyYAML**: Reading settings.
 
-## ⚙️ Configuración
+## ⚙️ Configuration
 
-1. Clona el repositorio:
+1. Clone the repository:
 
    ```plaintext
    git clone https://github.com/tu_usuario/etl_automation.git
    ```
 
-2. Instala las dependencias:
+2. Install dependencies:
 
    ```plaintext
    pip install -r requirements.txt
@@ -50,21 +50,21 @@ etl_automation/
 
 3. Configura las credenciales en config/db_config.yaml.
 
-## ⌛ Ejecución
+## ⌛ Execution
 
-- Ejecuta el pipeline de ETL:
+- Run the ETL pipeline:
 
   ```bash
   python etl_pipeline.py
   ```
 
-## 🫂 Contribuciones
+## 🫂 Contributions
 
-> **💡 Siéntete libre de contribuir a este repositorio o utilizarlo como base para tus propios proyectos de ETL. ¡Tu aporte y creatividad son bienvenidos!**
+> **💡 Feel free to contribute to this repository or use it as a basis for your own ETL projects. Your input and creativity are welcome!**
 
 <!-- Connect With Me -->
 
-## ✉️ Contacto
+## ✉️ Contact
 
 <a href="https://www.linkedin.com/in/jeanpaulomv/"><img src="https://img.shields.io/badge/jeanpaulomv-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="30"></a>
 <a href="https://www.datascienceportfol.io/jeanpaulomv"><img src="https://img.shields.io/badge/Portfolio-255E63?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" height="30"></a>
