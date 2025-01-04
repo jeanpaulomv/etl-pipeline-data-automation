@@ -1,13 +1,15 @@
+# db_config.yaml
+# Replace the placeholder values with your actual database credentials.
 postgres:
-  host: "localhost"
-  port: 5432
-  dbname: "nombre_base"
-  user: "usuario"
-  password: "contraseña"
+  host: "localhost"       # PostgreSQL server address
+  port: 5432             # Default PostgreSQL port
+  dbname: "<your_database_name>" # Name of your PostgreSQL database
+  user: "<your_username>" # Username for the database
+  password: "<your_password>" # Password for the database
 
 mysql:
-  host: "localhost"
-  port: 3306
-  dbname: "nombre_base"
-  user: "usuario"
-  password: "contraseña"
+  host: "localhost"       # MySQL server address
+  port: 3306             # Default MySQL port
+  dbname: "<your_database_name>" # Name of your MySQL database
+  user: "<your_username>" # Username for the database
+  password: "<your_password>" # Password for the database
