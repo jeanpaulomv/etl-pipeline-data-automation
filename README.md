@@ -1,4 +1,4 @@
-# ETL Automation
+# ETL Pipeline: Data Automation
 
 ## 📋 Project Description
 
